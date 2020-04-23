@@ -1,5 +1,5 @@
 # Mothership Hackathon - Coral Challenge
-For Raising Coral Costa Rica, by the Coral Buddies
+For Raising Coral Costa Rica, by the Coral Buddies. Info on https://mothershipmissions.com/coralreefsos
 
 # Collaborating
 
