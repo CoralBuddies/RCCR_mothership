@@ -5,6 +5,8 @@ For Raising Coral Costa Rica, by the Coral Buddies. Info on https://mothershipmi
 * ACOLITE (http://odnature.naturalsciences.be/remsem/software-and-data/acolite)
 * python 3
 * sentinelsat python package
+* bokeh package for interactive plots
+* sklearn and keras for the neural network
 
 # "Alpha Version"
 The repository that you are currently looking at, is the product of the Mothership Hackathon Coral Challenge.
