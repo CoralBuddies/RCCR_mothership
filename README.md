@@ -1,6 +1,19 @@
 # Mothership Hackathon - Coral Challenge
 For Raising Coral Costa Rica, by the Coral Buddies. Info on https://mothershipmissions.com/coralreefsos
 
+# Requirements
+* ACOLITE (http://odnature.naturalsciences.be/remsem/software-and-data/acolite)
+* python 3
+* sentinelsat python package
+
+# "Alpha Version"
+The repository that you are currently looking at, is the product of the Mothership Hackathon Coral Challenge.
+
+The code is collected in a number of notebooks:
+1. download_and_acolite.ipynb. This notebook queries (and possibly downloads) the data for a hardcoded region of interest, and then processes it using the ACOLITE algorithm, using settings as defined in the settings files found in this repo. This notebook is for the Golfo Dulce, and there is another notebook in this repo for Bahia Culbera (same code, using different coordinates).
+2. resample_timeseries_and_average. This code takes the products of the previous notebook, and creates average maps and also timeseries for any given coordinate. 
+3. resize_pngs.ipynb. For the Neural Network it was useful to export the png images created with ACOLITE in a smaller and consistent format. This notebook does that.
+
 # Collaborating
 
 Mostly, the directory structure should be self explanatory. 
@@ -26,4 +39,3 @@ Gagan Reddy
 Damiano Pellegrino
 Larissa Koupriouchina
 Jeroen Franse
-Max 
